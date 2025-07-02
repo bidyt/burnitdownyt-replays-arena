@@ -1,6 +1,5 @@
-
 import { useState, useEffect } from 'react';
-import { Youtube, Instagram, ExternalLink } from 'lucide-react';
+import { Youtube, Instagram, Facebook, ExternalLink } from 'lucide-react';
 
 interface SlideContent {
   id: number;
