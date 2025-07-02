@@ -12,7 +12,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-4">
             <img 
-              src="/lovable-uploads/51aac6eb-3e1e-4d33-b71c-fd8f4f724d3f.png" 
+              src="/lovable-uploads/eb5a7593-283a-4841-b680-38adeeb16bdb.png" 
               alt="BurnItDownYT Logo" 
               className="h-10 w-auto"
             />
@@ -23,7 +23,6 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#network" className="hover:text-red-500 transition-colors font-medium">NETWORK</a>
             <a href="#shows" className="hover:text-red-500 transition-colors font-medium">SHOWS</a>
-            <a href="#superstars" className="hover:text-red-500 transition-colors font-medium">SUPERSTARS</a>
             <a href="#resell-tickets" className="hover:text-red-500 transition-colors font-medium">RE-SELL TICKETS</a>
             <a href="#shop" className="hover:text-red-500 transition-colors font-medium">SHOP</a>
           </nav>
@@ -53,7 +52,6 @@ const Header = () => {
             <div className="flex flex-col space-y-4">
               <a href="#network" className="hover:text-red-500 transition-colors font-medium">NETWORK</a>
               <a href="#shows" className="hover:text-red-500 transition-colors font-medium">SHOWS</a>
-              <a href="#superstars" className="hover:text-red-500 transition-colors font-medium">SUPERSTARS</a>
               <a href="#resell-tickets" className="hover:text-red-500 transition-colors font-medium">RE-SELL TICKETS</a>
               <a href="#shop" className="hover:text-red-500 transition-colors font-medium">SHOP</a>
             </div>
