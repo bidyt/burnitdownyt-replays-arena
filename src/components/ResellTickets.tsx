@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 interface Ticket {
@@ -97,19 +96,6 @@ const ResellTickets = () => {
               {category.name}
             </button>
           ))}
-        </div>
-
-        {/* Sell Your Tickets CTA */}
-        <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-lg p-6 mb-8">
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <div>
-              <h3 className="text-2xl font-bold mb-2">Got tickets to sell?</h3>
-              <p className="text-red-100">List your tickets and reach thousands of wrestling fans</p>
-            </div>
-            <button className="bg-white text-red-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors mt-4 md:mt-0">
-              SELL TICKETS
-            </button>
-          </div>
         </div>
 
         {/* Tickets Grid */}

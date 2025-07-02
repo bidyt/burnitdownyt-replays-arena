@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import { Menu, X, User, Search } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,21 +11,22 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-4">
+          <Link to="/" className="flex items-center space-x-4">
             <img 
               src="/lovable-uploads/eb5a7593-283a-4841-b680-38adeeb16bdb.png" 
               alt="BurnItDownYT Logo" 
               className="h-10 w-auto"
             />
             <span className="text-xl font-bold text-red-500">BurnItDownYT</span>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#network" className="hover:text-red-500 transition-colors font-medium">NETWORK</a>
             <a href="#shows" className="hover:text-red-500 transition-colors font-medium">SHOWS</a>
             <a href="#resell-tickets" className="hover:text-red-500 transition-colors font-medium">RE-SELL TICKETS</a>
-            <a href="#shop" className="hover:text-red-500 transition-colors font-medium">SHOP</a>
+            <Link to="/shop" className="hover:text-red-500 transition-colors font-medium">SHOP</Link>
+            <Link to="/documents" className="hover:text-red-500 transition-colors font-medium">DOCUMENTS</Link>
           </nav>
 
           {/* Right Side Icons */}
@@ -53,7 +55,8 @@ const Header = () => {
               <a href="#network" className="hover:text-red-500 transition-colors font-medium">NETWORK</a>
               <a href="#shows" className="hover:text-red-500 transition-colors font-medium">SHOWS</a>
               <a href="#resell-tickets" className="hover:text-red-500 transition-colors font-medium">RE-SELL TICKETS</a>
-              <a href="#shop" className="hover:text-red-500 transition-colors font-medium">SHOP</a>
+              <Link to="/shop" className="hover:text-red-500 transition-colors font-medium">SHOP</Link>
+              <Link to="/documents" className="hover:text-red-500 transition-colors font-medium">DOCUMENTS</Link>
             </div>
           </nav>
         )}
