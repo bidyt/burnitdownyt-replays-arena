@@ -27,6 +27,7 @@ const Header = () => {
             <a href="#resell-tickets" className="hover:text-red-500 transition-colors font-medium">RE-SELL TICKETS</a>
             <Link to="/shop" className="hover:text-red-500 transition-colors font-medium">SHOP</Link>
             <Link to="/documents" className="hover:text-red-500 transition-colors font-medium">DOCUMENTS</Link>
+            <Link to="/admin" className="hover:text-red-500 transition-colors font-medium">ADMIN</Link>
           </nav>
 
           {/* Right Side Icons */}
@@ -57,6 +58,7 @@ const Header = () => {
               <a href="#resell-tickets" className="hover:text-red-500 transition-colors font-medium">RE-SELL TICKETS</a>
               <Link to="/shop" className="hover:text-red-500 transition-colors font-medium">SHOP</Link>
               <Link to="/documents" className="hover:text-red-500 transition-colors font-medium">DOCUMENTS</Link>
+              <Link to="/admin" className="hover:text-red-500 transition-colors font-medium">ADMIN</Link>
             </div>
           </nav>
         )}
