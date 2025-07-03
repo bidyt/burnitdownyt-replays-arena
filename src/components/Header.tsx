@@ -27,6 +27,7 @@ const Header = () => {
             <a href="#resell-tickets" className="hover:text-red-500 transition-colors font-medium">RE-SELL TICKETS</a>
             <Link to="/shop" className="hover:text-red-500 transition-colors font-medium">SHOP</Link>
             <Link to="/documents" className="hover:text-red-500 transition-colors font-medium">DOCUMENTS</Link>
+            <Link to="/work-with-us" className="hover:text-red-500 transition-colors font-medium">WORK WITH US</Link>
             <Link to="/admin" className="hover:text-red-500 transition-colors font-medium">ADMIN</Link>
           </nav>
 
@@ -58,6 +59,7 @@ const Header = () => {
               <a href="#resell-tickets" className="hover:text-red-500 transition-colors font-medium">RE-SELL TICKETS</a>
               <Link to="/shop" className="hover:text-red-500 transition-colors font-medium">SHOP</Link>
               <Link to="/documents" className="hover:text-red-500 transition-colors font-medium">DOCUMENTS</Link>
+              <Link to="/work-with-us" className="hover:text-red-500 transition-colors font-medium">WORK WITH US</Link>
               <Link to="/admin" className="hover:text-red-500 transition-colors font-medium">ADMIN</Link>
             </div>
           </nav>
