@@ -2,7 +2,6 @@
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import SocialMediaWidget from '../components/SocialMediaWidget';
-import InstagramStories from '../components/InstagramStories';
 import LatestNews from '../components/LatestNews';
 import Slideshow from '../components/Slideshow';
 import SocialMediaButtons from '../components/SocialMediaButtons';
@@ -35,9 +34,8 @@ const Index = () => {
       
       <div className="relative z-10">
         <Header />
-        <SocialMediaWidget />
         <LatestNews />
-        <InstagramStories />
+        <SocialMediaWidget />
         <Hero />
         <Slideshow />
         <SocialMediaButtons />
