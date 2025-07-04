@@ -36,7 +36,6 @@ const Index = () => {
         <Header />
         <LatestNews />
         <SocialMediaWidget />
-        <Hero />
         <Slideshow />
         <SocialMediaButtons />
         <FeaturedBelts />
