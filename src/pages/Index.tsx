@@ -34,6 +34,7 @@ const Index = () => {
       
       <div className="relative z-10">
         <Header />
+        <Hero />
         <LatestNews />
         <SocialMediaWidget />
         <Slideshow />
